@@ -1,84 +1,64 @@
 html{
-	height: 100%
-	width: 100%;
-
+	width:100%;
+	height: 80%;
 }
-
 
 body{
-	background-image: url("../images/footer.png");
-	height: 100%
-	width: 100%;
 	font-family: 'Open Sans Condensed', 'sans-serif';
-	font-weight: 300;
-}
-
-a:hover{
-	text-decoration: none;
-}
-
-#header{
-	background-image:url("../images/bg.jpg");
-	background-size: cover;
-	padding: 5em;
-	padding-top: 15em;
-	/*background-color: green;*/
+	background-image: url("../images/background.jpg");
 	width:100%;
-	/*height: 50em;*/
-	height: 92%;
-	-webkit-box-shadow: 0px 9px 11px 0px rgba(0, 0, 0, 0.9);
-	-moz-box-shadow:    0px 9px 11px 0px rgba(0, 0, 0, 0.9);
-	box-shadow:         0px 9px 11px 0px rgba(0, 0, 0, 0.9);
-	position: absolute;
+	height:100%;
 }
 
-#profile{
-	-webkit-box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 1);
-	-moz-box-shadow:    0px 0px 19px 0px rgba(50, 50, 50, 1);
-	box-shadow:         0px 0px 19px 0px rgba(50, 50, 50, 1);
-	max-width: 100%;
-	max-height: 100%;
+#main{
+	width: 100%;
+	height: 100%;
+	display: table;
 }
+
+#centralBox{
+
+	margin:10%;
+}
+
 
 #imageBox{
-	/*background-color: green;*/
-	width: 10em;
-	float: left;
+	width:100px;
+	height:100px;
+	background-color:red;
+	float:left;
 }
 
-#descriptionBox{
-	/*background-color: red;*/
-	height: 10em;
-	max-height: 10em;
-	float:left;
-	font-size: xxx-large
+
+#profilePicture{
+	max-width: 100%; /*Sorgt dafür, dass das Bild nicht größer wird als die imageBox*/
+	/* Von css3gen.com/box-shadow */
+	-webkit-box-shadow: 0px 0px 20px 3px rgba(50, 50, 50, 0.99);
+	-moz-box-shadow:    0px 0px 20px 3px rgba(50, 50, 50, 0.99);
+	box-shadow:         0px 0px 20px 3px rgba(50, 50, 50, 0.99);
 }
 
 #name{
-	float:left;
+	color:red;
 	font-size: 3em;
-	padding-left: 15px;
-	padding-top: 10px;
+	padding-left: 12%;
+}
+
+#info{
+	font-size: 1.5em;
+	padding-left: 12%;
 
 }
 
-#descriptionText{
-	float: left;
-	font-size: 2em;
-	padding-left: 15px;
-}
-
-.content{
-	
+#footer{
 	width: 100%;
-	/*height: 10em;*/
-	/*background-image: url("../images/footer.png");*/
-	padding: 2.6%;
-	padding-left: 5em;
-	/*position: absolute;*/
-	color: #B2B2B3;
-	font-size: 1em;
-	height: 3%;
-	position: absolute;
-	bottom: 0;
+	background-image: url("../images/footer.png");
+	padding: 2em;
+	color:red;
+-webkit-box-shadow: inset 0px 20px 22px 0px rgba(0, 0, 0, 0.76);
+-moz-box-shadow:    inset 0px 20px 22px 0px rgba(0, 0, 0, 0.76);
+box-shadow:         inset 0px 20px 22px 0px rgba(0, 0, 0, 0.76);
+}
+
+#shadow{
 }
