@@ -18,14 +18,14 @@ class Game {
   constructor() {
     this.fps = FPS;
     this.rocket = new Rocket(document.getElementById(rocketDomID));
-    this.bullets = new Set();
+    this.bullets = new Map();
     this.interval = setInterval(this.run.bind(this), 1000 / this.fps);
   }
 
   update() {
     if(keys.isPressed("space")) {
       var coordX = this.rocket.getCoordX();
-      this.bullets.add(new Bullet(document.getElementById(bulletDomID), coordX));
+      this.bullets.set(bulletDomID, new Bullet(document.getElementById(bulletDomID), coordX));
     }
     this.rocket.update();
     this.bullets.forEach(bullet => bullet.update());
