@@ -4,9 +4,10 @@ var keys = require("./keys.js");
 
 const DISTANCE = 2;
 
-class Rocket {
-  constructor(domElement) {
+class Bullet {
+  constructor(domElement, coordX) {
     this.domElement = domElement;
+    this.setCoordX(coordX);
   }
 
   moveLeft() {
@@ -23,6 +24,18 @@ class Rocket {
     this.setCoordX(coordX);
   }
 
+  moveUp() {
+    var coordY = this.getCoordY();
+    coordY = coordY += DISTANCE;
+    this.setCoordY(coordY);
+  }
+
+  moveDown() {
+    var coordY = this.getCoordY();
+    coordY = coordY -= DISTANCE;
+    this.setCoordY(coordY);
+  }
+
   getCoordX() {
     return (this.domElement.style.left === "")? 0 : parseInt(this.domElement.style.left);
   }
@@ -31,13 +44,17 @@ class Rocket {
     this.domElement.style.left = value+"px";
   }
 
+  getCoordY() {
+    return (this.domElement.style.bottom === "")? 0 : parseInt(this.domElement.style.bottom);
+  }
+
+  setCoordY(value) {
+    this.domElement.style.bottom = value+"px";
+  }
+
   update() {
-    if (keys.isPressed("left")) {
-      this.moveLeft();
-    } else if (keys.isPressed("right")) {
-      this.moveRight();
-    }
+      this.moveUp();
   }
 }
 
-module.exports = Rocket;
+module.exports = Bullet;
