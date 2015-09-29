@@ -21,6 +21,7 @@ class Game {
     this.rocket = new Rocket(document.getElementById(rocketDomID));
     this.bullets = new Map();
     this.interval = setInterval(this.run.bind(this), 1000 / this.fps);
+    modifyHTML();
   }
 
   update() {
@@ -32,6 +33,15 @@ class Game {
     this.rocket.update();
     this.bullets.forEach(function (value, key) {
       value.update();
+
+      var targets = document.getElementById('targetContainer').getElementsByTagName('span');
+      for(var i = 0; i < targets.length; i++) {
+        if(targets[i].innerText !== " ") {
+          if(hit(targets[i], value.domElement)) {
+            targets[i].innerText = "_";
+          }
+        }
+      }
     });
   }
 
@@ -48,6 +58,18 @@ class Game {
 new Game();
 
 
+function hit(node1, node2) {
+
+  if(Math.abs(node1.getBoundingClientRect().bottom - node2.getBoundingClientRect().bottom) < 10) {
+    if(Math.abs(node1.getBoundingClientRect().left - node2.getBoundingClientRect().left) < 10) {
+      return true;
+    } else {
+      return false;
+    }
+  } else {
+    return false;
+  }
+}
 
 /**
  * http://stackoverflow.com/a/5062698
