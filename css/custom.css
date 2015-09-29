@@ -1,93 +1,55 @@
-html{
-	height: 100%;
-}
-
-body{
-	font-family: 'Open Sans Condensed', 'sans-serif';
-	font-weight: 200;
-	background-image: url("../images/background.jpg");
-	height: 100%;
-}
-
-#main{
-	position: fixed;
-	left: 0;
-	top: 0;
-	height: auto !important;
-	width: 100%
-
-
-}
-
-#centralBox{
-	/*text-align: center;*/
-	margin: 0 auto;
-	width: 300px;
-	height: 300px;
-	padding-top: 10em;
-
-}
-
-
-#imageBox{
-	margin: 0 auto;
-	width: 100px;
-	height: 100px;
-	
-}
-
-
-#profilePicture{
-	/*margin: 0 auto;
-	width: 300px;
-	height: 300px;*/
-	max-width: 100%; /*Sorgt dafür, dass das Bild nicht größer wird als die imageBox*/
-	/* Von css3gen.com/box-shadow*/
-	-webkit-box-shadow: 0px 0px 20px 3px rgba(50, 50, 50, 0.99);
-	-moz-box-shadow:    0px 0px 20px 3px rgba(50, 50, 50, 0.99);
-	box-shadow:         0px 0px 20px 3px rgba(50, 50, 50, 0.99);*/
-}
-
-#name{
-	color:rgba(206,134, 47, 1);
-	font-size: 3em;
-	text-align: center;
-}
-
-#info{
-	font-size: 1.5em;
-	text-align: center;
-
-}
-
-.footer{
-	position: fixed;
-	left: 0px;
-	bottom: 0px;
-	padding-top: 1.25em;
-
-	text-align: center;
-
+html, body {
 	width: 100%;
-	height:10%;
-
-	background-image: url("../images/footer.png");
-color:rgba(206,134, 47, 1);
-	font-size: 1.25em;
-	-webkit-box-shadow: inset 0px 20px 22px 0px rgba(0, 0, 0, 0.76);
-	-moz-box-shadow:    inset 0px 20px 22px 0px rgba(0, 0, 0, 0.76);
-	box-shadow:         inset 0px 20px 22px 0px rgba(0, 0, 0, 0.76);
-
+	font-family: 'Source Code Pro', 'sans-serif';
+	font-weight: 200;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	color: #282C34;
 }
 
-a, a:link, a:visited, a:active{
-	color:rgba(206,134, 47, 1);
+h1, h2 {
+	font-weight: lighter;
+}
+
+h2 {
+	font-size: small;
+	font-weight: bold;
+}
+
+a {
+	color: #8AB377;
 	text-decoration: none;
 }
 
-a:hover{
-	/*text-shadow: 0px 4px 4px rgba(155, 150, 150, 1);*/
-	text-shadow: 0px 2px 5px rgba(91, 91, 91, 1);
+.content {
+	padding-left: 5px;
 }
 
+#impressum a {
+	color: #BC5142;
+	font-size: small;
+	position: absolute;
+	bottom: 5px;
+}
 
+#debug {
+	font-size: small;
+	position: absolute;
+	bottom: 5px;
+	left: 90px;
+}
+
+#rocket {
+	font-size: small;
+	position:absolute;
+	bottom:20px;
+	left: 5px;
+}
+
+#bullet {
+	font-size: small;
+	position:absolute;
+	bottom:30px;
+	left: 10px;
+}
