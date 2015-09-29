@@ -5,8 +5,14 @@ var keys = require("./keys.js");
 const DISTANCE = 2;
 
 class Bullet {
-  constructor(domElement, coordX) {
-    this.domElement = domElement;
+  constructor(container, coordX) {
+
+    this.domElement = document.createElement("div");
+    this.domElement.setAttribute("class", "bullet");
+    var icon = document.createTextNode("*");
+    this.domElement.appendChild(icon);
+    this.domElement.style.bottom = "30px";
+    container.appendChild(this.domElement);
     this.setCoordX(coordX);
   }
 

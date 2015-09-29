@@ -47,9 +47,7 @@ a {
 	left: 5px;
 }
 
-#bullet {
+.bullet {
 	font-size: small;
 	position:absolute;
-	bottom:30px;
-	left: 10px;
 }

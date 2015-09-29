@@ -4,22 +4,39 @@ var keycode = require("keycode");
 
 module.exports.isPressed = function (name) {
   var code = keycode(name);
-  return isPressed(code);
-}
+  return isPressedKey(code);
+};
+
+module.exports.gotClicked = function (name) {
+  var code = keycode(name);
+  return gotClickedKey(code);
+};
 
 var downKeys = new Map();
+var clickedKeys = new Map();
 
 document.onkeydown = function(event) {
   downKeys.set(event.keyCode, true);
+  clickedKeys.set(event.keyCode, true);
 };
 
 document.onkeyup = function(event) {
   downKeys.set(event.keyCode, false);
 };
 
-function isPressed(key) {
+function isPressedKey(key) {
   if(downKeys.has(key)) {
     return downKeys.get(key);
+  } else {
+    return false;
+  }
+}
+
+function gotClickedKey(key) {
+  if(clickedKeys.has(key)) {
+    var value = clickedKeys.get(key);
+    clickedKeys.set(key, false);
+    return value;
   } else {
     return false;
   }
