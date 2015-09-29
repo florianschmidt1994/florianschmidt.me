@@ -12,6 +12,7 @@ class Bullet {
     var icon = document.createTextNode("*");
     this.domElement.appendChild(icon);
     this.domElement.style.bottom = "30px";
+    this.domElement.style.color = getRandomColor();
     container.appendChild(this.domElement);
     this.setCoordX(coordX);
   }
@@ -61,6 +62,15 @@ class Bullet {
   update() {
       this.moveUp();
   }
+}
+
+function getRandomColor() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
 }
 
 module.exports = Bullet;
