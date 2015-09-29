@@ -46,3 +46,54 @@ class Game {
 
 /* start game */
 new Game();
+
+
+
+/**
+ * http://stackoverflow.com/a/5062698
+ * recursively get all text nodes as an array for a given element
+ */
+function getTextNodes(node) {
+    var childTextNodes = [];
+
+    if (!node.hasChildNodes()) {
+        return;
+    }
+
+    var childNodes = node.childNodes;
+    for (var i = 0; i < childNodes.length; i++) {
+        if (childNodes[i].nodeType == Node.TEXT_NODE) {
+            childTextNodes.push(childNodes[i]);
+        }
+        else if (childNodes[i].nodeType == Node.ELEMENT_NODE) {
+            Array.prototype.push.apply(childTextNodes, getTextNodes(childNodes[i]));
+        }
+    }
+
+    return childTextNodes;
+}
+
+/**
+ * given a text node, wrap each character in the
+ * given tag.
+ */
+function wrapEachCharacter(textNode, tag) {
+    var text = textNode.nodeValue;
+    var parent = textNode.parentNode;
+
+    var characters = text.split('');
+    characters.forEach(function(character) {
+        var element = document.createElement(tag);
+        var characterNode = document.createTextNode(character);
+        element.appendChild(characterNode);
+
+        parent.insertBefore(element, textNode);
+    });
+
+    parent.removeChild(textNode);
+}
+
+function modifyHTML() {
+  var allTextNodes = getTextNodes(document.getElementById("targetContainer"));
+  allTextNodes.forEach(textNode => wrapEachCharacter(textNode, 'span'));
+}
