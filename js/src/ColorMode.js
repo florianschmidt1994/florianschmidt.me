@@ -1,14 +1,12 @@
 'use strict';
 
 var color = {
-
   dark: {
     bg: "#282C34",
     font: "#ACB2BE",
     links: "#ACB2BE",
     impressum: "#A2BD78"
   },
-
   light : {
       bg: "#FFFFFF",
       links: "#8AB377",
@@ -70,3 +68,5 @@ setInterval(function () {
     setMode("lightmode");
   }
 }, 1000);
+
+module.exports = true;

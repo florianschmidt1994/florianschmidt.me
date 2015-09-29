@@ -2,6 +2,8 @@
 
 var Rocket = require('./Rocket');
 
+require("./ColorMode");
+
 const FPS = 60;
 const rocketDomID = "rocket";
 
