@@ -31,18 +31,36 @@ class Game {
       bulletCounter++;
     }
     this.rocket.update();
+
+    let toBeDeleted = new Set();
+
     this.bullets.forEach(function (value, key) {
+
       value.update();
+
+      if(!isElementInViewport(value.domElement)) {
+        console.log("element left viewport");
+        toBeDeleted.add(key);
+        return;
+      }
 
       var targets = document.getElementById('targetContainer').getElementsByTagName('span');
       for(var i = 0; i < targets.length; i++) {
-        if(targets[i].innerText !== " ") {
+        if(targets[i].innerText !== " " && targets[i].innerText !== "_") {
           if(hit(targets[i], value.domElement)) {
             targets[i].innerText = "_";
+            toBeDeleted.add(key);
           }
         }
       }
     });
+
+    toBeDeleted.forEach(key => {
+      let bullet = this.bullets.get(key);
+      bullet.domElement.innerText = "";
+    });
+
+    toBeDeleted.forEach(key => this.bullets.delete(key));
   }
 
   stop() {
@@ -59,7 +77,6 @@ new Game();
 
 
 function hit(node1, node2) {
-
   if(Math.abs(node1.getBoundingClientRect().bottom - node2.getBoundingClientRect().bottom) < 10) {
     if(Math.abs(node1.getBoundingClientRect().left - node2.getBoundingClientRect().left) < 10) {
       return true;
@@ -69,6 +86,22 @@ function hit(node1, node2) {
   } else {
     return false;
   }
+}
+
+/*
+ * Check if element is in current viewport
+ * from: http://stackoverflow.com/a/7557433/4187312
+ */
+function isElementInViewport (el) {
+
+    var rect = el.getBoundingClientRect();
+
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+    );
 }
 
 /**
