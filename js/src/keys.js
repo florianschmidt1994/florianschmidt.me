@@ -2,6 +2,9 @@
 
 var keycode = require("keycode");
 
+var downKeys = new Map();
+var clickedKeys = new Map();
+
 module.exports.isPressed = function (name) {
   var code = keycode(name);
   return isPressedKey(code);
@@ -11,9 +14,6 @@ module.exports.gotClicked = function (name) {
   var code = keycode(name);
   return gotClickedKey(code);
 };
-
-var downKeys = new Map();
-var clickedKeys = new Map();
 
 document.onkeydown = function(event) {
   downKeys.set(event.keyCode, true);

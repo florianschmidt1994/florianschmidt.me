@@ -6,7 +6,6 @@ const DISTANCE = 2;
 
 class Bullet {
   constructor(container, coordX) {
-
     this.domElement = document.createElement("div");
     this.domElement.setAttribute("class", "bullet");
     var icon = document.createTextNode("*");
@@ -15,7 +14,7 @@ class Bullet {
     this.domElement.style.color = getRandomColor();
     container.appendChild(this.domElement);
     this.setCoordX(coordX);
-    this.visible = false;
+    this.hasHit = false;
   }
 
   moveLeft() {
@@ -60,12 +59,21 @@ class Bullet {
     this.domElement.style.bottom = value+"px";
   }
 
-  removeFromDOM() {
-    this.visible = false;
+  setHasHit() {
+    this.hasHit = true;
     this.domElement.parentNode.removeChild(this.domElement);
   }
 
+  checkViewport() {
+    if(!isElementInViewport(this.domElement)) {
+      this.hasHit = true;
+      this.domElement.parentNode.removeChild(this.domElement);
+      console.log("Bullet has left viewport!!");
+    }
+  }
+
   update() {
+      this.checkViewport();
       this.moveUp();
   }
 }
@@ -77,6 +85,22 @@ function getRandomColor() {
         color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
+}
+
+/*
+ * Check if element is in current viewport
+ * from: http://stackoverflow.com/a/7557433/4187312
+ */
+function isElementInViewport (el) {
+
+    var rect = el.getBoundingClientRect();
+
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+    );
 }
 
 module.exports = Bullet;

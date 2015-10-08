@@ -2,15 +2,17 @@
 
 var Rocket = require('./Rocket');
 var Bullet = require('./Bullet');
+var Target = require('./Target');
 var keys = require("./keys.js");
 
 require("./ColorMode");
 
 const FPS = 60;
-const rocketDomID = "rocket";
-const bulletDomID = "bulletContainer";
+const ROCKET_DOM_ID = "rocket";
+const BULLET_DOM_ID = "bulletContainer";
+const TARGET_CONTAINER_ID = "targetContainer";
+const TARGET_WRAP_TAG = "SPAN";
 
-let bulletCounter = 0;
 /*
  * GameLoop Tutorial von
  * http://nokarma.org/2011/02/02/javascript-game-development-the-game-loop/
@@ -18,43 +20,50 @@ let bulletCounter = 0;
 class Game {
   constructor() {
     this.fps = FPS;
-    this.rocket = new Rocket(document.getElementById(rocketDomID));
-    this.bullets = [];//new Map();
+    this.rocket = new Rocket(document.getElementById(ROCKET_DOM_ID));
+    this.bullets = [];
+    this.targets = this.initTargets();
     this.interval = setInterval(this.run.bind(this), 1000 / this.fps);
-    modifyHTML();
+  }
+
+  initTargets() {
+    let allTextNodes = getTextNodes(document.getElementById(TARGET_CONTAINER_ID));
+    allTextNodes.forEach(textNode => wrapEachCharacter(textNode, TARGET_WRAP_TAG));
+    let targetDoms = document.getElementById(TARGET_CONTAINER_ID).getElementsByTagName(TARGET_WRAP_TAG);
+    let targets = [];
+    for(var i = 0; i < targetDoms.length; i++) {
+      if(targetDoms[i].innerText !== " ") {
+        targets.push(new Target(targetDoms[i]));
+      }
+    }
+    return targets;
   }
 
   update() {
+
+    /* fire new bullet if space is pressed */
     if(keys.gotClicked("space")) {
       var coordX = this.rocket.getCoordX();
-      this.bullets.push(new Bullet(document.getElementById(bulletDomID), coordX+25));
-      bulletCounter++;
+      this.bullets.push(new Bullet(document.getElementById(BULLET_DOM_ID), coordX+25));
     }
+
+    /* update all game elements */
     this.rocket.update();
+    this.bullets.forEach(bullet => bullet.update());
+    this.targets.forEach(target => target.update());
 
-    let toBeDeleted = new Set();
-
-    this.bullets.forEach(function (value, key) {
-
-      value.update();
-
-      if(!isElementInViewport(value.domElement)) {
-        value.removeFromDOM();
-        return;
-      }
-
-      var targets = document.getElementById('targetContainer').getElementsByTagName('span');
-      for(var i = 0; i < targets.length; i++) {
-        if(targets[i].innerText !== " " && targets[i].innerText !== "_") {
-          if(hit(targets[i], value.domElement)) {
-            targets[i].innerText = "_";
-            value.removeFromDOM();
-          }
+    /* check for hits */
+    this.bullets.forEach(bullet => {
+      this.targets.forEach(target => {
+        if(hit(target.domElement, bullet.domElement)) {
+          target.setIsHit(true);
+          bullet.setHasHit(true);
         }
-      }
+      });
     });
 
-    this.bullets = this.bullets.filter(bullet => !bullet.remove);
+    this.bullets = this.bullets.filter(bullet => !bullet.hasHit);
+    this.targets = this.targets.filter(target => !target.isHit);
   }
 
   stop() {
@@ -69,7 +78,6 @@ class Game {
 /* start game */
 new Game();
 
-
 function hit(node1, node2) {
   if(Math.abs(node1.getBoundingClientRect().bottom - node2.getBoundingClientRect().bottom) < 10) {
     if(Math.abs(node1.getBoundingClientRect().left - node2.getBoundingClientRect().left) < 10) {
@@ -80,22 +88,6 @@ function hit(node1, node2) {
   } else {
     return false;
   }
-}
-
-/*
- * Check if element is in current viewport
- * from: http://stackoverflow.com/a/7557433/4187312
- */
-function isElementInViewport (el) {
-
-    var rect = el.getBoundingClientRect();
-
-    return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
-    );
 }
 
 /**
@@ -140,9 +132,4 @@ function wrapEachCharacter(textNode, tag) {
     });
 
     parent.removeChild(textNode);
-}
-
-function modifyHTML() {
-  var allTextNodes = getTextNodes(document.getElementById("targetContainer"));
-  allTextNodes.forEach(textNode => wrapEachCharacter(textNode, 'span'));
 }
