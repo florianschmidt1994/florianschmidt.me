@@ -15,6 +15,7 @@ class Bullet {
     this.domElement.style.color = getRandomColor();
     container.appendChild(this.domElement);
     this.setCoordX(coordX);
+    this.visible = false;
   }
 
   moveLeft() {
@@ -57,6 +58,11 @@ class Bullet {
 
   setCoordY(value) {
     this.domElement.style.bottom = value+"px";
+  }
+
+  removeFromDOM() {
+    this.visible = false;
+    this.domElement.parentNode.removeChild(this.domElement);
   }
 
   update() {

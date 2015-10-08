@@ -19,7 +19,7 @@ class Game {
   constructor() {
     this.fps = FPS;
     this.rocket = new Rocket(document.getElementById(rocketDomID));
-    this.bullets = new Map();
+    this.bullets = [];//new Map();
     this.interval = setInterval(this.run.bind(this), 1000 / this.fps);
     modifyHTML();
   }
@@ -27,7 +27,7 @@ class Game {
   update() {
     if(keys.gotClicked("space")) {
       var coordX = this.rocket.getCoordX();
-      this.bullets.set("bullet"+bulletCounter, new Bullet(document.getElementById(bulletDomID), coordX+25));
+      this.bullets.push(new Bullet(document.getElementById(bulletDomID), coordX+25));
       bulletCounter++;
     }
     this.rocket.update();
@@ -39,8 +39,7 @@ class Game {
       value.update();
 
       if(!isElementInViewport(value.domElement)) {
-        console.log("element left viewport");
-        toBeDeleted.add(key);
+        value.removeFromDOM();
         return;
       }
 
@@ -49,18 +48,13 @@ class Game {
         if(targets[i].innerText !== " " && targets[i].innerText !== "_") {
           if(hit(targets[i], value.domElement)) {
             targets[i].innerText = "_";
-            toBeDeleted.add(key);
+            value.removeFromDOM();
           }
         }
       }
     });
 
-    toBeDeleted.forEach(key => {
-      let bullet = this.bullets.get(key);
-      bullet.domElement.innerText = "";
-    });
-
-    toBeDeleted.forEach(key => this.bullets.delete(key));
+    this.bullets = this.bullets.filter(bullet => !bullet.remove);
   }
 
   stop() {
