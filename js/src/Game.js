@@ -32,7 +32,7 @@ class Game {
     let targetDoms = document.getElementById(TARGET_CONTAINER_ID).getElementsByTagName(TARGET_WRAP_TAG);
     let targets = [];
     for(var i = 0; i < targetDoms.length; i++) {
-      if(targetDoms[i].innerText !== " ") {
+      if(targetDoms[i].textContent !== " ") {
         targets.push(new Target(targetDoms[i]));
       }
     }

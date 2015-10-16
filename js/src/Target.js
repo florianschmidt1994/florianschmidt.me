@@ -7,12 +7,12 @@ class Target {
   }
 
   setIsHit(isHit) {
-    this.domElement.innerText = "_";
+    this.domElement.textContent = "_";
     this.isHit = isHit;
   }
 
   update() {
-    
+
   }
 }
 

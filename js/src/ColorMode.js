@@ -43,7 +43,7 @@ function setMode(mode) {
 }
 
 function setDebug(message) {
-  document.getElementById("debug").innerText = message;
+  document.getElementById("debug").textContent = message;
 }
 
 var persistent = false;
