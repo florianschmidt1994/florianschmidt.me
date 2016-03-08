@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+
+<body>
+<script>
+    var urls = [
+        "http://reddit.com",
+        "http://google.com",
+        "http://facebook.com",
+        "http://heise.com"];
+    function getRandomIndex(length) {
+        return Math.floor(Math.random() * length);
+    }
+    var index = getRandomIndex(urls.length);
+    var url = urls[index];
+    window.location = url
+</script>
+</body>
+</html>
