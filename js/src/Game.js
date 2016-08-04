@@ -10,7 +10,7 @@ require("./ColorMode");
 const FPS = 60;
 const ROCKET_DOM_ID = "rocket";
 const BULLET_DOM_ID = "bulletContainer";
-const TARGET_CONTAINER_ID = "targetContainer";
+const TARGET_CONTAINER_ID = "content";
 const TARGET_WRAP_TAG = "SPAN";
 
 /*
