@@ -31,9 +31,3 @@ h1 {
 h2 {
     font-family: 'Cutive Mono', monospace;
 }
-
-#link-to-imprint {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-}
