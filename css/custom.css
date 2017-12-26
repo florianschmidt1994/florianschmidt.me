@@ -1,9 +1,8 @@
 body {
-    /*color: rgb(40, 48, 56);*/
-    /*background-color: rgba(254, 95, 85, 1);*/
-    font-family: 'Cutive Mono', monospace;
+    font-family: 'Oswald', sans-serif;
     margin: 30px;
     max-width: 450px;
+    background-color: rgba(236, 236, 236, 1);
 }
 
 a {
@@ -16,7 +15,7 @@ a:hover {
 }
 
 ul {
-    font-family: 'Cutive Mono', monospace;
+    font-family: 'Oswald', monospace;
 }
 
 li {
@@ -24,10 +23,10 @@ li {
 }
 
 h1 {
-    font-family: 'Cutive Mono', monospace;
+    font-family: 'Special Elite', monospace;
     font-size: 3em;
 }
 
 h2 {
-    font-family: 'Cutive Mono', monospace;
+    font-family: 'Special Elite', monospace;
 }
