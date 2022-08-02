@@ -1,5 +1,5 @@
 ---
-slug: "awesome-engineering-resources"
+slug: "/projects/awesome-engineering-resources"
 date: "2022-07-04 11:55:48"
 title: "Awesome engineering resources"
 tags: ["passion-project"]

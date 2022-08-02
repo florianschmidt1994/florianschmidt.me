@@ -1,5 +1,5 @@
 ---
-slug: "wenn-einer-eine-reise-tut"
+slug: "/blog/wenn-einer-eine-reise-tut"
 date: "2019-11-25 11:29:16"
 title: "Roadtrip durch Africa"
 tags: ["blog"]

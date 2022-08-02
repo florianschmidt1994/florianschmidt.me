@@ -1,5 +1,5 @@
 ---
-slug: "die-ankunft"
+slug: "/blog/die-ankunft"
 date: "2019-07-19 05:49:24"
 title: "Die ersten Erlebnisse"
 tags: ["blog"]

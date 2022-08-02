@@ -1,5 +1,5 @@
 ---
-slug: "muzila-island"
+slug: "/blog/muzila-island"
 date: "2019-09-14 07:00:06"
 title: "Der Außenposten Bukobas"
 tags: ["blog"]

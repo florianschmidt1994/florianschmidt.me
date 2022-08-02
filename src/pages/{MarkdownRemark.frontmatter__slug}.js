@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Header from "../components/Header";
+import Layout from "../components/Layout";
+import Fullbleed from "../components/Fullbleed";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -8,19 +9,18 @@ export default function Template({
   const { markdownRemark } = data; // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark;
   return (
-    <>
-      <Header />
-      <article className="grid grid-cols-[1fr_min(70ch,100%)_1fr] p-10 text-black blog-post">
-        <header className="col-[2] mb-10">
-          <h1 className="text-xl font-bold">{frontmatter.title}</h1>
-          <h2 className="text-sm">{frontmatter.date}</h2>
+    <Layout>
+      <Fullbleed>
+        <header className="col-[2] mb-10 px-10">
+          <h1 className="text-3xl font-bold">{frontmatter.title}</h1>
+          <h2 className="text-xs font-bold opacity-80">{frontmatter.date}</h2>
         </header>
         <div
-          className="col-[2] text-lg"
+          className="blog-post col-[2] text-lg px-10"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-      </article>
-    </>
+      </Fullbleed>
+    </Layout>
   );
 }
 export const pageQuery = graphql`

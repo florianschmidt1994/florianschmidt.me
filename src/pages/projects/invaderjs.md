@@ -1,5 +1,5 @@
 ---
-slug: "invaderjs"
+slug: "/projects/invaderjs"
 date: "2020-02-06 15:00:01"
 title: "invaderJS"
 tags: ["passion-project"]

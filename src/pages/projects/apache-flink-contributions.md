@@ -1,5 +1,5 @@
 ---
-slug: "apache-flink-contributions"
+slug: "/projects/apache-flink-contributions"
 date: "2020-02-14 10:55:06"
 title: "Apache Flink Contributions"
 tags: ["passion-project"]

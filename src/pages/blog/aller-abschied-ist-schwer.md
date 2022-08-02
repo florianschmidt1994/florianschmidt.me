@@ -1,5 +1,5 @@
 ---
-slug: "aller-abschied-ist-schwer"
+slug: "/blog/aller-abschied-ist-schwer"
 date: "2019-10-15 10:14:30"
 title: "Ein lachendes und ein weinendes Auge"
 tags: ["blog"]

@@ -1,5 +1,5 @@
 ---
-slug: "patternlayout-com"
+slug: "/projects/patternlayout-com"
 date: "2020-02-11 15:11:26"
 title: "PatternLayout.com"
 tags: ["passion-project"]

@@ -1,5 +1,5 @@
 ---
-slug: "bukobas-suden-mtb-tour"
+slug: "/blog/bukobas-suden-mtb-tour"
 date: "2019-10-01 06:48:58"
 title: "Bukobas Süden – MTB Tour"
 tags: ["blog"]

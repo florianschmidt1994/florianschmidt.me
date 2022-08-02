@@ -1,5 +1,5 @@
 ---
-slug: "52x-krass"
+slug: "/blog/52x-krass"
 date: "2021-01-06 18:11:24"
 title: "52x krass"
 tags: ["blog"]

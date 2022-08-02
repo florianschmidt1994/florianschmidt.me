@@ -1,5 +1,5 @@
 ---
-slug: "finster-wars-der-mond-schien-helle"
+slug: "/blog/finster-wars-der-mond-schien-helle"
 date: "2019-08-21 17:17:17"
 title: "Finster war’s, der Mond schien helle…"
 tags: ["blog"]

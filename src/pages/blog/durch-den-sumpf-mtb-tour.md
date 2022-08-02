@@ -1,5 +1,5 @@
 ---
-slug: "durch-den-sumpf-mtb-tour"
+slug: "/blog/durch-den-sumpf-mtb-tour"
 date: "2019-09-03 08:56:52"
 title: "Durch den Sumpf – MTB Tour"
 tags: ["blog"]

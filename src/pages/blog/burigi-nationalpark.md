@@ -1,5 +1,5 @@
 ---
-slug: "burigi-nationalpark"
+slug: "/blog/burigi-nationalpark"
 date: "2019-09-21 14:20:47"
 title: "Burigi Nationalpark"
 tags: ["blog"]

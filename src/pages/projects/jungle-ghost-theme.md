@@ -1,5 +1,5 @@
 ---
-slug: "jungle-ghost-theme"
+slug: "/projects/jungle-ghost-theme"
 date: "2020-02-03 14:28:00"
 title: "Jungle"
 tags: ["passion-project"]

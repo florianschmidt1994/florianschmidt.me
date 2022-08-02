@@ -1,5 +1,5 @@
 ---
-slug: "quarantaneheld-innen"
+slug: "/projects/quarantaneheld-innen"
 date: "2020-05-30 11:12:10"
 title: "QuarantäneHeld*innen"
 tags: ["passion-project"]

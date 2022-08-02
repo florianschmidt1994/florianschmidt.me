@@ -1,5 +1,5 @@
 ---
-slug: "option-26"
+slug: "/projects/option-26"
 date: "2020-11-05 19:35:37"
 title: "Option 26"
 tags: ["passion-project"]

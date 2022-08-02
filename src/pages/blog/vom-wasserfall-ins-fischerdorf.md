@@ -1,5 +1,5 @@
 ---
-slug: "vom-wasserfall-ins-fischerdorf"
+slug: "/blog/vom-wasserfall-ins-fischerdorf"
 date: "2019-09-03 12:04:22"
 title: "Vom Ursprung bis ans Ende – MTB Tour"
 tags: ["blog"]

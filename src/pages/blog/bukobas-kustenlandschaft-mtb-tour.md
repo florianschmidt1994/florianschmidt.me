@@ -1,5 +1,5 @@
 ---
-slug: "bukobas-kustenlandschaft-mtb-tour"
+slug: "/blog/bukobas-kustenlandschaft-mtb-tour"
 date: "2019-09-05 15:09:50"
 title: "Bukobas Küstenlandschaft – MTB Tour"
 tags: ["blog"]

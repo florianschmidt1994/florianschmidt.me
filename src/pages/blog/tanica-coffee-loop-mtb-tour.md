@@ -1,5 +1,5 @@
 ---
-slug: "tanica-coffee-loop-mtb-tour"
+slug: "/blog/tanica-coffee-loop-mtb-tour"
 date: "2019-09-09 08:39:26"
 title: "Tanica Coffee Loop – MTB Tour"
 tags: ["blog"]

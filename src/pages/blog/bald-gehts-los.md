@@ -1,5 +1,5 @@
 ---
-slug: "bald-gehts-los"
+slug: "/blog/bald-gehts-los"
 date: "2019-07-10 17:56:17"
 title: "Ich packe meinen Koffer..."
 tags: ["blog"]

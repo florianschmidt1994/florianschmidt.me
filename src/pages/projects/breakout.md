@@ -1,5 +1,5 @@
 ---
-slug: "breakout"
+slug: "/projects/breakout"
 date: "2020-02-03 13:43:29"
 title: "BreakOut"
 tags: ["passion-project"]
