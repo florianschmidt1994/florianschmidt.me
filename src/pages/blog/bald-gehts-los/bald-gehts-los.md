@@ -3,6 +3,7 @@ slug: "/blog/bald-gehts-los"
 date: "2019-07-10 17:56:17"
 title: "Ich packe meinen Koffer..."
 tags: ["blog"]
+featuredImage: ./featured.jpeg
 ---
 
 **Bald geht's los nach Tansania! Dank Jambo Bukoba darf ich die nächsten 3 Monate in Bukoba verbringen und Mountainbike-Touren in der Region planen und austesten!**

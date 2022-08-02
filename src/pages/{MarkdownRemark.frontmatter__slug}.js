@@ -13,12 +13,14 @@ export default function Template({
     <Layout>
       <Fullbleed>
         <div className="col-[2] px-10">
-          <Img
-            className="rounded"
-            fluid={
-              markdownRemark.frontmatter.featuredImage.childImageSharp.fluid
-            }
-          />
+          {markdownRemark.frontmatter.featuredImage && (
+            <Img
+              className="rounded"
+              fluid={
+                markdownRemark.frontmatter.featuredImage.childImageSharp.fluid
+              }
+            />
+          )}
         </div>
 
         <header className="col-[2] my-10 px-10">
