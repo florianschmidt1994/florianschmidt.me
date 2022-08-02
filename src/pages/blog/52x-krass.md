@@ -4,6 +4,7 @@ date: "2021-01-06 18:11:24"
 title: "52x krass"
 tags: ["blog"]
 ---
+
 2021 ist da, und wir haben einen Plan geschmiedet! Wir? Das sind meine Mitbewohner\*innen und ich! Als glücklicher Einwohner einer 6er WG im Münchner Süden habe bin ich in der glücklichen Situation, dass selbst während Corona mit einem Haushalt immer ordentlich was geboten ist!
 
 Unser Plan lautet also wie folgt: _**Jede Woche machen wir was krasses**_**_!_** Was genau das bedeutet? Das steht noch in den Sternen. In der ersten Woche haben wir auf jeden Fall mal mit "krasser" Idee #1 gestartet, in dem wir zum Neujahrsschwimmen in die 4°C kalte Isar gesprungen sind.
@@ -22,11 +23,11 @@ Anna, Johanna, Flo und Lea auf dem Vorgipfel des Brecherspitz
 
 Auf der Liste, die aber gerne noch mit euren wilden Ideen erweitert werden darf, steht bisher:
 
-*   Eine Woche Social-Media Detox
-*   Heilfasten
-*   Auf die Zugspitze wandern
-*   2-Tages-Tour auf der Isar
-*   Eine Woche kein Geld ausgeben
-*   Eine Woche garkeine Lebensmittel wegschmeißen
+- Eine Woche Social-Media Detox
+- Heilfasten
+- Auf die Zugspitze wandern
+- 2-Tages-Tour auf der Isar
+- Eine Woche kein Geld ausgeben
+- Eine Woche garkeine Lebensmittel wegschmeißen
 
 Euer Flo

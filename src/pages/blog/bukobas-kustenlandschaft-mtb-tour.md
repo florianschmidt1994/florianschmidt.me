@@ -4,6 +4,7 @@ date: "2019-09-05 15:09:50"
 title: "Bukobas Küstenlandschaft – MTB Tour"
 tags: ["blog"]
 ---
+
 Entlang der Küste Bukobas geht es vorbei an Bananenplantagen, endlosen Sandstränden und Mini-Savanne zur Mugesa Mseto Schule und anschließend zurück in die Stadt.
 
 ### Streckenverlauf
@@ -26,7 +27,7 @@ Nach einer ausgedehnten Pause am Strand geht es dann wieder ein Stück auf der g
 
 Auf dem Weg zur Sokoine Road
 
-Die Tour endet mit einem Abstieg von der Mugesa Mseto Schule zurück in die Stadt, der zwar etwas Geschick erfordert, einen dafür aber auch mit Panoramablick in die Stadt zurückführt. In der Stadt angekommen muss man nun noch ein zweites Mal am Flughafen vorbei, um wieder am Jambo for Development Büro anzukommen.  
+Die Tour endet mit einem Abstieg von der Mugesa Mseto Schule zurück in die Stadt, der zwar etwas Geschick erfordert, einen dafür aber auch mit Panoramablick in die Stadt zurückführt. In der Stadt angekommen muss man nun noch ein zweites Mal am Flughafen vorbei, um wieder am Jambo for Development Büro anzukommen.
 
 ### Schwierigkeit
 
@@ -36,15 +37,15 @@ Technisch beinhaltet diese Tour zwei schwierige Sektionen. Vom Strand aus kommen
 
 ### Highlights
 
-*   Entlang der Küste in Bukoba
-*   Strand und Graslandschaften nördlich von Bukoba
-*   Ausblick und Graslandschaften auf dem Weg zur Sokoine Road
-*   Mugesa Mseto Schule
-*   Abfahrt nach Bukoba
+- Entlang der Küste in Bukoba
+- Strand und Graslandschaften nördlich von Bukoba
+- Ausblick und Graslandschaften auf dem Weg zur Sokoine Road
+- Mugesa Mseto Schule
+- Abfahrt nach Bukoba
 
 ### Varianten
 
-*   Die Abfahrt von Mugesa Mseto nach Bukoba kann auf der Sokoine Road umfahren werden
+- Die Abfahrt von Mugesa Mseto nach Bukoba kann auf der Sokoine Road umfahren werden
 
 ### Die Tour auf Komoot
 

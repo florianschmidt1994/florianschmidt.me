@@ -4,6 +4,7 @@ date: "2019-10-15 10:14:30"
 title: "Ein lachendes und ein weinendes Auge"
 tags: ["blog"]
 ---
+
 Meine Zeit in Bukoba ist zu Ende. Nach drei ereignisreichen Monaten kann ich auf viele neue Erfahrung, Erlebnisse und Freundschaften zurückblicken! Auch wenn der Abschied nicht leicht ist, geht es für mich jetzt weiter und ich kann voller Enthusiasmus auf das Abenteuer vor mir blicken!
 
 Drei Monate habe ich in Bukoba als Volunteer bei [Jambo Bukoba](https://jambobukoba.com) verbracht. Von Mountainbike-Touren über Tech Support bis hin zu Projekt Management Workshops und Programmier-Crashkurs war mein Aufgabenbereich super vielseitig und abwechslungsreich und ich freue mich riesig, ein Teil des Teams gewesen zu sein!

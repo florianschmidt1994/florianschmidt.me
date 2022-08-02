@@ -4,6 +4,7 @@ date: "2019-08-21 17:17:17"
 title: "Finster war’s, der Mond schien helle…"
 tags: ["blog"]
 ---
+
 Angeblich sind Kontraste ja sexy. Wenn man mit MacBook auf dem Schoß im Kerzenschein Blogeinträge schreibt, merkt man auf jeden Fall, wie hier zwei ganz verschiedene Welten aufeinandertreffen. In Bukoba und der Region Kagera befinden wir uns nun am Ende von Tag 3 ohne Strom.
 
 Angeblich irgendwelche Probleme im Stromnetz von Uganda, aber so richtig ist hier niemand informiert, scheint aber auch niemanden so richtig zu betreffen. Das Team von Jambo Bukoba kann sich auf jeden Fall zu den glücklichen zählen, die tagsüber im Büro dank Generator mit Strom versorgt werden. So viel Luxus gibt’s hier allerdings nur für Banken, Upper-Class Hotels, Funkmasten (3G bei Stromausfall 🤯), Tankstellen und eben den Regierungsgebäuden, in denen wir angesiedelt sind.

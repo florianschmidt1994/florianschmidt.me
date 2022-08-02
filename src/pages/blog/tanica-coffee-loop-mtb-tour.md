@@ -4,6 +4,7 @@ date: "2019-09-09 08:39:26"
 title: "Tanica Coffee Loop – MTB Tour"
 tags: ["blog"]
 ---
+
 Eine kleine, aber feine Tour entlang der Küste im Süden Bukobas mit einsamem Fischerdorf und Ausblick auf Stadt und See.
 
 ### **Streckenverlauf**
@@ -24,10 +25,10 @@ Die Tour ist mit **14 Kilometern und 120 Höhenmetern** relativ kurz und kann gu
 
 ### **Highlights**
 
-*   Fahrt entlang der Küste
-*   Fischerdorf am Sandstrand
-*   Ausblick auf Victoriasee und Bukoba
-*   Abfahrt zurück zur Tanganyika Coffee Factory
+- Fahrt entlang der Küste
+- Fischerdorf am Sandstrand
+- Ausblick auf Victoriasee und Bukoba
+- Abfahrt zurück zur Tanganyika Coffee Factory
 
 ### **Die Tour auf Komoot**
 

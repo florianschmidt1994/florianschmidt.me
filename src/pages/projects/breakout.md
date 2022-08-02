@@ -4,6 +4,7 @@ date: "2020-02-03 13:43:29"
 title: "BreakOut"
 tags: ["passion-project"]
 ---
+
 **BreakOut is a non-profit from Munich, where money is raised by travelling as far as possible in 36 hours without spending any money.**
 
 Together with my team we developed an app, website and backend and helped raise over 300000 € in donations so far. Starting as a backend developer I helped build the infrastructure as a greenfield project. A year later my role changed and I became teamleader of our development team.

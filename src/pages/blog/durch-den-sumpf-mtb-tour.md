@@ -4,6 +4,7 @@ date: "2019-09-03 08:56:52"
 title: "Durch den Sumpf – MTB Tour"
 tags: ["blog"]
 ---
+
 Entlang der unbesiedelten Sumpflandschaften geht es auf dieser Tour über Berge und Täler vorbei an Höhlenmalereien, Pilgerstätten und Jambo Bukoba Wassertanks.
 
 ### Streckenverlauf
@@ -30,22 +31,22 @@ Die Tour ist mit **38 Kilometern und 510 Höhenmetern** eine durchschnittliche M
 
 ### Highlights
 
-*   Höhlenmalereien
-*   Mugana B Grundschule mit [Jambo Bukoba Wassertank](https://www.facebook.com/jambobukoba/posts/10159201581320727/)
-*   [Nyakijoga](http://www.bukobadiocese.co.tz/nyakijoga.php) Pilgerstätte
-*   Sumpflandschaften
+- Höhlenmalereien
+- Mugana B Grundschule mit [Jambo Bukoba Wassertank](https://www.facebook.com/jambobukoba/posts/10159201581320727/)
+- [Nyakijoga](http://www.bukobadiocese.co.tz/nyakijoga.php) Pilgerstätte
+- Sumpflandschaften
 
 ### Varianten
 
-*   Die Tour kann in Bukoba gestartet werden (+10km, +200 Hm)
-*   Die Tour kann in Bukoba beendet werden (+10km)
-*   Die Tour kann in Kashambya gestartet werden (-6km)
+- Die Tour kann in Bukoba gestartet werden (+10km, +200 Hm)
+- Die Tour kann in Bukoba beendet werden (+10km)
+- Die Tour kann in Kashambya gestartet werden (-6km)
 
 ### Organisatorisches
 
-*   Anfahrt von Bukoba mit dem Auto notwendig
-*   Abholung mit Auto ggf. notwendig
-*   Die Strecke ist in der Regenzeit eventuell stellenweise nur schwierig befahrbar und sollte vorher geprüft werden!
+- Anfahrt von Bukoba mit dem Auto notwendig
+- Abholung mit Auto ggf. notwendig
+- Die Strecke ist in der Regenzeit eventuell stellenweise nur schwierig befahrbar und sollte vorher geprüft werden!
 
 ### Die Tour auf Komoot
 

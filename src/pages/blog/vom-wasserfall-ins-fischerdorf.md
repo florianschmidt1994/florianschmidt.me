@@ -4,6 +4,7 @@ date: "2019-09-03 12:04:22"
 title: "Vom Ursprung bis ans Ende – MTB Tour"
 tags: ["blog"]
 ---
+
 Vom Bugonzi Wasserfall geht es Richtung Viktoriasee, wo man vorbei an großartigen Ausblicken, endlosen Sandstränden und durch den Wald bis in's Zentrum von Bukoba fährt.
 
 ### Streckenverlauf
@@ -44,21 +45,21 @@ Einige wenige Stellen an der Klippe am Ende des Tages erfordern Schwindelfreihei
 
 ### Highlights
 
-*   Trail an der Oberkante des Wasserfalls mit Blick auf das Tal
-*   Durchquerung der Sumpflandschaften
-*   Kabuhara Beach mit endlosem Sandstrand
-*   Kyamunene Wasserfall
+- Trail an der Oberkante des Wasserfalls mit Blick auf das Tal
+- Durchquerung der Sumpflandschaften
+- Kabuhara Beach mit endlosem Sandstrand
+- Kyamunene Wasserfall
 
 ### Varianten
 
-*   Kein Aufstieg nach Kanazi, stattdessen entlang der Bundesstraße (-200 Hm)
-*   Kein Abstieg zum Kabuhara Beach (-10km, -150Hm). Großes Highlight fällt weg!
-*   Ende der Tour entweder auf Straße nach Bukoba (technisch einfach) oder entlang der Klippen (stellenweise technisch anspruchsvoll, aber großartige Aussicht)
+- Kein Aufstieg nach Kanazi, stattdessen entlang der Bundesstraße (-200 Hm)
+- Kein Abstieg zum Kabuhara Beach (-10km, -150Hm). Großes Highlight fällt weg!
+- Ende der Tour entweder auf Straße nach Bukoba (technisch einfach) oder entlang der Klippen (stellenweise technisch anspruchsvoll, aber großartige Aussicht)
 
 ### Organisatorisches
 
-*   Eine Übernachtung am Vortag in Kamachumu ist empfehlenswert, damit man am nächsten Tag früh und entspannt in die Tour starten kann
-*   Ein gutes Hotel (Kamachumu Inn) kann man direkt im Zentrum finden
+- Eine Übernachtung am Vortag in Kamachumu ist empfehlenswert, damit man am nächsten Tag früh und entspannt in die Tour starten kann
+- Ein gutes Hotel (Kamachumu Inn) kann man direkt im Zentrum finden
 
 ### Die Tour auf Komoot
 

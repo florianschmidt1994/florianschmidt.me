@@ -4,6 +4,7 @@ date: "2019-09-21 14:20:47"
 title: "Burigi Nationalpark"
 tags: ["blog"]
 ---
+
 "Machst du eigentlich nur Urlaub oder arbeitest du da auch was?" – diese Frage wurde mir neulich gestellt, und vorgestern war mal wieder einer dieser Tage, der sich mehr wie Urlaub als Arbeit angefühlt hat!
 
 Für Jambo Bukoba helfe ich vor Ort in vielen Rollen aus. Als Technik-Berater für Monitoring-Fragen, beim Darstellen von Projekten auf der Jambo Bukoba Website oder bei der Vorbereitung von Workshops verbringe ich auch viel Zeit im Büro am Computer. Beim Mountainbiken oder auf Erkundungstouren zur Verbesserung der [Learning-Safari](https://www.jambobukoba.com/reisen-und-lernen/) wird zwar auch gearbeitet, aber es bietet sich mir auch eine super Gelegenheit, das Land und die Leute besser kennen zu lernen. Und weil vor kurzem in der Region Kagera ein neuer Nationalpark eröffnet wurde, haben wir diesen natürlich direkt mal ausgekundschaftet.

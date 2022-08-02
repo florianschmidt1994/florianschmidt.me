@@ -4,6 +4,7 @@ date: "2019-11-25 11:29:16"
 title: "Roadtrip durch Africa"
 tags: ["blog"]
 ---
+
 So viel ist passiert in den letzten drei Monaten, da hab ich doch ganz vergessen, euch über meine Reise auf dem Laufenden zu halten. Dafür gibt's jetzt eine ausführliche Zusammenfassung über meine Reise vom Äquator an den südlichsten Punkt Afrikas.
 
 # TL;DR:

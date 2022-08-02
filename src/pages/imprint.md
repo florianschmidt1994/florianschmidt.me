@@ -3,6 +3,7 @@ slug: "imprint"
 date: "2019-07-10 17:05:36"
 title: "Imprint"
 ---
+
 ## Angaben gemäß § 5 TMG:
 
 Florian Schmidt  
@@ -12,7 +13,7 @@ An den Waldteichen 41
 ## Kontakt:
 
 Telefon: 015753003770  
-E-Mail:  florian.schmidt.1994@icloud.com  
+E-Mail: florian.schmidt.1994@icloud.com
 
 ## Haftungsausschluss (Disclaimer)
 

@@ -4,6 +4,7 @@ date: "2019-09-14 07:00:06"
 title: "Der Außenposten Bukobas"
 tags: ["blog"]
 ---
+
 Fischfang, Solarstrom und Zuckerrohr – Willkommen auf Muzila Island. Hier kann man erleben was es bedeutet, von der Außenwelt abgeschnitten zu sein.
 
 Vor zwei Wochen haben wir am Wochenende einen Ausflug zur Muzila Island gemacht. Die kleine Insel liegt vor der Bucht von Bukoba und ist schon aus der Ferne gut zu erkennen, wenn die Mittagssonne von den Wellblechhütten zurück in die Hauptstadt Kageras reflektiert.
