@@ -3,6 +3,7 @@ slug: "/blog/burigi-nationalpark"
 date: "2019-09-21 14:20:47"
 title: "Burigi Nationalpark"
 tags: ["blog"]
+featuredImage: ../../images/burigi.png
 ---
 
 "Machst du eigentlich nur Urlaub oder arbeitest du da auch was?" – diese Frage wurde mir neulich gestellt, und vorgestern war mal wieder einer dieser Tage, der sich mehr wie Urlaub als Arbeit angefühlt hat!
