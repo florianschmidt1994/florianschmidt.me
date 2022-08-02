@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    @apply bg-juniper-50;
+}
+
+a {
+    @apply text-terracotta-700 hover:underline
+}
+
+.blog-post a {
+ @apply text-terracotta-500
+}
+
+.blog-post p {
+    @apply mb-4
+}
+
+.blog-post iframe {
+    @apply w-full my-6
+}
+
+.blog-post li {
+    @apply list-disc
+}
+
+.blog-post h1 {
+    @apply text-2xl font-bold mb-4 mt-6
+}
+
+.blog-post h2 {
+    @apply text-xl font-bold mb-4 mt-6
+}
+
+.blog-post h3 {
+    @apply font-bold mb-4 mt-6
+}
+ /*@refresh reset*/
+.blog-post blockquote {
+    @apply my-10 border-l-4 border-juniper-600 text-juniper-700 pl-4
+}
