@@ -1,7 +1,8 @@
 module.exports = {
+  pathPrefix: "/florianschmidt.me",
   siteMetadata: {
     title: `florianschmidt.me`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://github.io/florianschmidt1994/florianschmidt.me`,
   },
   plugins: [
     "gatsby-plugin-postcss",
