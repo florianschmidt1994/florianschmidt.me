@@ -3,7 +3,7 @@ slug: "/blog/burigi-nationalpark"
 date: "2019-09-21 14:20:47"
 title: "Burigi Nationalpark"
 tags: ["blog"]
-featuredImage: ../../images/burigi.png
+featuredImage: ./burigi.png
 ---
 
 "Machst du eigentlich nur Urlaub oder arbeitest du da auch was?" – diese Frage wurde mir neulich gestellt, und vorgestern war mal wieder einer dieser Tage, der sich mehr wie Urlaub als Arbeit angefühlt hat!
@@ -11,6 +11,8 @@ featuredImage: ../../images/burigi.png
 Für Jambo Bukoba helfe ich vor Ort in vielen Rollen aus. Als Technik-Berater für Monitoring-Fragen, beim Darstellen von Projekten auf der Jambo Bukoba Website oder bei der Vorbereitung von Workshops verbringe ich auch viel Zeit im Büro am Computer. Beim Mountainbiken oder auf Erkundungstouren zur Verbesserung der [Learning-Safari](https://www.jambobukoba.com/reisen-und-lernen/) wird zwar auch gearbeitet, aber es bietet sich mir auch eine super Gelegenheit, das Land und die Leute besser kennen zu lernen. Und weil vor kurzem in der Region Kagera ein neuer Nationalpark eröffnet wurde, haben wir diesen natürlich direkt mal ausgekundschaftet.
 
 5:45 – Der Wecker klingelt. Noch etwa müde, aber gespannt auf den Tag quäle ich mich aus dem Bett. Der Rucksack ist gepackt, der Kaffee gekocht und es kann losgehen. Wir machen uns auf den Weg in Richtung Kayanga, wo unsere Tour starten wird. Nach einer Fahrt durch Nebel und endlose Weiten sind wir am Büro der Nationalparkbehörde angekommen, wo wir den Eintritt bezahlen und unseren Ranger Sam kennenlernen. Der Eintritt ist übrigens für Non-Locals 10-mal teurer als für Locals, lässt sich aber mit $30 trotzdem noch gut verkraften.
+
+![](./burigi.png)
 
 Zusammen mit Sam müssen wir nun erstmal auf den Fahrer und unseren Offroad-Truck für heute warten. Er ist 1,5 Stunden zu spät. Die Laune lassen wir uns aber nicht verderben, und so machen wir uns zwar ohne Gurte, aber dafür mit super Wetter auf in Richtung Nationalpark. Wir genießen die Aussicht, unser Fahrer ist in gemütlichem Schritt-Tempo bergab unterwegs. Hier hätten wir schon stutzig werden sollen, mehr dazu später.
 

@@ -9,7 +9,17 @@ module.exports = {
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-transformer-remark",
-      options: { plugins: [{ resolve: "gatsby-remark-embed-gist" }] },
+      options: {
+        plugins: [
+          { resolve: "gatsby-remark-embed-gist" },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 900,
+            },
+          },
+        ],
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
