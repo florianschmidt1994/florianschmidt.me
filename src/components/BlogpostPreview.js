@@ -5,7 +5,7 @@ export function BlogpostPreview({ node }) {
   return (
     <>
       <Link
-        className="text-xl block text-orange-600 font-bold"
+        className="text-xl block text-terracotta-600 font-bold"
         to={node.frontmatter.slug}
       >
         {node.frontmatter.title}

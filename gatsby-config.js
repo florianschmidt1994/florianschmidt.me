@@ -1,10 +1,10 @@
 module.exports = {
-  pathPrefix: "/florianschmidt.me",
   siteMetadata: {
-    title: `florianschmidt.me`,
-    siteUrl: `https://github.io/florianschmidt1994/florianschmidt.me`,
+    title: `https://florianschmidt.me`,
+    siteUrl: `https://florianschmidt.me`,
   },
   plugins: [
+    "gatsby-plugin-cname",
     "gatsby-plugin-postcss",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",

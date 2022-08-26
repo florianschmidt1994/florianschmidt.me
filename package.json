@@ -12,11 +12,13 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^4.19.2",
     "gatsby-image": "^3.11.0",
+    "gatsby-plugin-cname": "^1.0.0",
     "gatsby-plugin-sharp": "^4.20.0",
     "gatsby-remark-classes": "^1.0.2",
     "gatsby-remark-embed-gist": "^1.2.1",

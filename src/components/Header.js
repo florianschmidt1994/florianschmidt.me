@@ -4,7 +4,7 @@ import * as React from "react";
 export default function Header() {
   return (
     <header className="py-12 px-10 flex flex-col items-center">
-      <h1 className="text-5xl text-terracotta-500">Florian Schmidt</h1>
+      <h1 className="text-5xl text-terracotta-600">Florian Schmidt</h1>
       <nav className="mt-8">
         <ul className="font-bold flex flex-row space-x-10 uppercase text-xs opacity-80">
           <li>
