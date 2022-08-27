@@ -28,7 +28,7 @@ export default function Template({
           <h2 className="text-xs font-bold opacity-80">{frontmatter.date}</h2>
         </header>
         <div
-          className="blog-post col-[2] text-lg px-10"
+          className="blog-post col-[2] text-md px-10"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </Fullbleed>

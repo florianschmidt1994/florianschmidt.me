@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  @apply bg-juniper-50;
-}
-
 a {
   @apply text-terracotta-700 hover:underline;
 }
