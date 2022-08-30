@@ -12,10 +12,10 @@ export default function Template({
   return (
     <Layout>
       <Fullbleed>
-        <div className="col-[2] px-10">
+        <div className="col-[2] md:px-10">
           {markdownRemark.frontmatter.featuredImage && (
             <Img
-              className="rounded"
+              className="md:rounded max-h-96"
               fluid={
                 markdownRemark.frontmatter.featuredImage.childImageSharp.fluid
               }
@@ -25,7 +25,7 @@ export default function Template({
 
         <header className="col-[2] my-10 px-10">
           <h1 className="text-3xl font-bold">{frontmatter.title}</h1>
-          <h2 className="text-xs font-bold opacity-80">{frontmatter.date}</h2>
+          <h2 className="text-sm font-bold opacity-80">{frontmatter.date}</h2>
         </header>
         <div
           className="blog-post col-[2] text-md px-10"
@@ -45,7 +45,7 @@ export const pageQuery = graphql`
         title
         featuredImage {
           childImageSharp {
-            fluid(maxWidth: 900) {
+            fluid(maxWidth: 900, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }

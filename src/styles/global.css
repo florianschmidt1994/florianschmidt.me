@@ -37,3 +37,12 @@ a {
 .blog-post blockquote {
   @apply my-10 border-l-4 border-juniper-600 text-juniper-700 pl-4;
 }
+
+.gatsby-resp-image-wrapper img {
+  object-fit: contain !important;
+  object-position: center;
+}
+
+.gatsby-resp-image-wrapper {
+  @apply bg-gray-900
+}
