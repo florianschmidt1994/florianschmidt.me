@@ -15,7 +15,7 @@ Jetzt geht's wirklich los, ab jetzt war ich alleine auf dem Weg nach Afrika. Zum
 
 Schnell ab in den Flieger nach Entebbe, da war es dank Airconditioning direkt wieder schön kühl. Die Einreise nach Uganda war dann dank guter Vorbereitung (Impfpass mit Gelbfieberimpfung, $50 für's Touristenvisum!) schnell erledigt, und vor dem Flughafen wartet schon 'Father Alex' auf mich! Auf der Fahrt nach Kampala merkt man sofort, dass man in einer anderen Welt angekommen ist. Endlos viele Motorräder, Autos, Fahrradfahrer, Fußgänger und LKWs: alles war sich irgendwie bewegt teilt sich hier die Straße! Hupen kann als Zeichen für alles verwendet werden: "Aus dem Weg", "Hi", "Mitfahrt gefällig", der Kreativität sind kaum Grenzen gesetzt.
 
-![](/content/images/2019/07/IMG_1925.jpeg)
+![](./team.jpeg)
 
 Jamila, Gonzaga, Ich und Father Alex vor dem Jambo Bukoba Büro
 
@@ -35,7 +35,7 @@ Neben einem schönen Einblick in die Arbeit von Jambo Bukoba und dem Leben am La
 
 Mein Alltag hier läuft immer relativ ähnlich ab. Zwischen 7:30 und 8:30 aufstehen, fertig machen und dann entweder mit dem Boda-Boda (Motorrad-Taxi) und einem meiner Mitbewohner im Auto ab ins Büro düsen. Dort angekommen heißt's dann: Laptop aufklappen und entweder Tour für diesen Tag planen oder Tour von gestern aufarbeiten. Geht natürlich nur, wenn der Strom nicht mal wieder ausgefallen ist und damit auch das WLAN ;)
 
-![](/content/images/2019/07/IMG_2135.jpeg)
+![](./huhn.jpeg)
 
 Das Huhn auf dem Weg zum Kochtopf: Dieser Anblick hat sich mir eines morgens aus der Küche geboten.
 
@@ -43,7 +43,7 @@ Meistens gehen wir dann auch noch gemeinsam frühstücken. Auf Brötchen mit Mar
 
 Jeden zweiten Tag schwingen wir uns dann auf's Rad und erkunden die Gegend. Bisher haben wir uns die Gegend um die Stadt Bukoba etwas genauer angesehen, und haben dabei unter anderem auch schon Traumstrände, knifflige Trails und sogar Affen entdeckt!
 
-![](/content/images/2019/07/A3FFE405-3383-4B09-8B5C-ADC88FA03692_image.jpeg)
+![](./sonnenuntergang.jpeg)
 
 Sonnenuntergang auf dem Rückweg von einer unserer Touren um Bukoba
 
@@ -53,7 +53,7 @@ Alle Touren werden natürlich auch Online auf diversen Plattformen festgehalten,
 
 Nach einem anstrengenden Tag geht's mit Fahrrad, Motorrad oder Auto dann ab nach Hause, wo dann meistens noch gemeinsam etwas gekocht wird. Häufig gibt es eine Kombination aus Wali (Reis), Maharage (Bohnen) und Samaki (Fisch). Den Fisch nehmen wir immer frisch mit, Bohnen und Reis kaufen wir gelegentlich, aber dafür ich großen Mengen (10kg Reis?? 😱) am Markt ein.
 
-![](/content/images/2019/07/IMG_2010.jpeg)
+![](./markt.jpeg)
 
 Diverse Bohnen und Reis am Markt
 
