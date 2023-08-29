@@ -16,7 +16,7 @@ Den Rest haben wir dann zum ersten mal im "Real-Life" am Samstag Nachmittag in e
 
 ![die-einkaufscrew](./die-einkaufscrew.jpg)
 
-Ein paar Minuten später kommt Xenia schon vorbei, und wir freuen uns schon, dass es endlich los geht. Jetzt nur noch schnell die Einkaufsliste nochmal durchsprechen und ab geht's mit der Crew in den Supermarkt.
+Ein paar Minuten später kommt Xenia schon vorbei, und wir freuen uns schon, dass es endlich losgeht. Jetzt nur noch schnell die Einkaufsliste nochmal durchsprechen und ab geht's mit der Crew in den Supermarkt.
 
 Kurze Zeit später stehen wir dann mit viel Essen, 150L Trinkwasser, 200 Dosen Bier und 960€ weniger in der Tasche an der Kasse. Auch die ersten Angelköder wurden im lokalen "Boat-Store" schon gekauft. Zufrieden machen wir uns auf den Weg zur Marina und dürfen bald zum ersten mal das Boot sehen.
 
@@ -24,12 +24,4 @@ In der Marina angekommen herrscht schon reger Betrieb, Samstag ist Anlege und Ab
 
 ![einkaufswagen-auf-steg](./einkaufswagen-auf-steg.jpeg)
 
-
-
-- Auf geht's in's Wasser - zum ersten mal die Segel setzen
-- Immer was unerwartetes
-  - Anker versenkt
-  - Boot auf uns getrieben
-  - Fender über Board
-  - Patenthalse
-  - Sturm
+Auf dem Rest der Reise sind noch viele weitere aufregende Dinge passiert, leider hab ich vergessen diesen Blog-Artikel zu Ende zu schreiben, daher geht dieser Blogbeitrag hier abrupt zu Ende...
