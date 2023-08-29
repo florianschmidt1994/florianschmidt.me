@@ -1,14 +1,3 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-});
-
-const strapiConfig = {
-  apiURL: process.env.STRAPI_API_URL,
-  accessToken: process.env.STRAPI_TOKEN,
-  collectionTypes: ["article", "company", "author"],
-  singleTypes: [],
-};
-
 module.exports = {
   siteMetadata: {
     title: `https://florianschmidt.me`,
@@ -20,10 +9,6 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
-      resolve: `gatsby-source-strapi`,
-      options: strapiConfig,
-    },
-    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
@@ -32,7 +17,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 900,
-              backgroundColor: "#000000",
+              backgroundColor: "#000000"
             },
           },
         ],
