@@ -1,6 +1,7 @@
-node_modules/
-.cache/
+# Hugo
 public/
 resources/
 .hugo_build.lock
-.idea
+
+# IDE
+.idea/
