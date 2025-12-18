@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="fullbleed">
+  <section class="section">
+    <h2 class="section-title">Passion Projects</h2>
+    <ul class="post-list">
+      {{ range .Pages.ByDate.Reverse }}
+      <li>
+        {{ partial "blogpost-preview.html" . }}
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+</div>
+{{ end }}

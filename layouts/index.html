@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="fullbleed">
+  <!-- Greeting Section -->
+  <section class="greeting">
+    Hi, I'm a software developer with a heart for non-profits. I like to
+    develop applications all across the stack!
+  </section>
+
+  <!-- Blog Section -->
+  <section class="section">
+    <h2 class="section-title">My Blog</h2>
+    <ul class="post-list">
+      {{ range first 4 (where .Site.RegularPages "Type" "blog") }}
+      <li>
+        {{ partial "blogpost-preview.html" . }}
+      </li>
+      {{ end }}
+    </ul>
+    <a class="more-link" href="/blog/">
+      Show all blog posts
+    </a>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section">
+    <h2 class="section-title">Passion Projects</h2>
+    <ul class="post-list">
+      {{ range first 4 (where .Site.RegularPages "Type" "projects") }}
+      <li>
+        {{ partial "blogpost-preview.html" . }}
+      </li>
+      {{ end }}
+    </ul>
+    <a class="more-link" href="/projects/">
+      Show all passion projects
+    </a>
+  </section>
+</div>
+{{ end }}

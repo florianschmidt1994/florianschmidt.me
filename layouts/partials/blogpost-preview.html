@@ -1,0 +1,10 @@
+<article>
+  <a class="post-preview-title" href="{{ .Permalink }}">
+    {{ .Title }}
+  </a>
+  <span class="post-preview-date">
+    {{ .Date.Format "January 02, 2006" }}
+  </span>
+  <span class="post-preview-excerpt">{{ .Summary | plainify | truncate 400 }}</span>
+  <a href="{{ .Permalink }}">Read More</a>
+</article>

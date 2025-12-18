@@ -1,0 +1,284 @@
+/* Color Variables */
+:root {
+  --terracotta-500: #E07A5F;
+  --terracotta-600: #D75330;
+  --terracotta-700: #AD3F22;
+  --juniper-600: #5C6D70;
+  --juniper-700: #434F51;
+  --gray-900: #111827;
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  color: #1f2937;
+}
+
+a {
+  color: var(--terracotta-700);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Layout */
+.fullbleed {
+  display: grid;
+  grid-template-columns: 1fr min(900px, 100%) 1fr;
+}
+
+.fullbleed > * {
+  grid-column: 2;
+}
+
+/* Header */
+.site-header {
+  padding: 3rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 3rem;
+  color: var(--terracotta-600);
+  text-align: center;
+  margin: 0;
+}
+
+.site-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-title a:hover {
+  text-decoration: none;
+}
+
+.site-nav {
+  margin-top: 2rem;
+}
+
+.site-nav ul {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+/* Footer */
+.site-footer {
+  margin: 2.5rem 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Sections */
+.section {
+  padding: 0 2.5rem;
+  margin-top: 3rem;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+}
+
+/* Greeting */
+.greeting {
+  font-size: 1.25rem;
+  margin-top: 3rem;
+  padding: 0 2.5rem;
+}
+
+@media (min-width: 1024px) {
+  .greeting {
+    font-size: 1.875rem;
+  }
+}
+
+/* Post List */
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Post Preview */
+.post-preview-title {
+  font-size: 1.25rem;
+  display: block;
+  color: var(--terracotta-600);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.post-preview-date {
+  display: block;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.post-preview-excerpt {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+/* More Link */
+.more-link {
+  color: var(--terracotta-600);
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+.more-link:hover {
+  text-decoration: underline;
+}
+
+/* Blog Post */
+.post-header {
+  margin: 2.5rem 0;
+  padding: 0 2.5rem;
+}
+
+.post-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin: 0 0 0.5rem 0;
+}
+
+.post-date {
+  font-size: 0.875rem;
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.post-featured-image {
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .post-featured-image {
+    padding: 0 2.5rem;
+  }
+}
+
+.post-featured-image img {
+  max-height: 24rem;
+  width: 100%;
+  object-fit: cover;
+  background: var(--gray-900);
+}
+
+@media (min-width: 768px) {
+  .post-featured-image img {
+    border-radius: 0.375rem;
+  }
+}
+
+.post-content {
+  font-size: 1rem;
+  padding: 0 2.5rem;
+}
+
+.post-content a {
+  color: var(--terracotta-500);
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+}
+
+.post-content iframe {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.post-content li {
+  list-style: disc;
+  margin-left: 1rem;
+}
+
+.post-content ul {
+  margin-bottom: 1rem;
+}
+
+.post-content h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+.post-content h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+.post-content h3 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+.post-content blockquote {
+  margin: 2.5rem 0;
+  border-left: 4px solid var(--juniper-600);
+  color: var(--juniper-700);
+  padding-left: 1rem;
+}
+
+.post-content img {
+  background: var(--gray-900);
+  object-fit: contain;
+  object-position: center;
+}
+
+/* 404 Page */
+.error-page {
+  padding: 6rem;
+}
+
+.error-page h1 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  max-width: 20rem;
+}
+
+.error-page p {
+  margin-bottom: 3rem;
+}

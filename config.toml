@@ -1,0 +1,51 @@
+baseURL = "https://florianschmidt.me/"
+languageCode = "en-us"
+title = "Florian Schmidt"
+
+# Preserve existing URL structure
+[permalinks]
+  blog = "/blog/:slug/"
+  projects = "/projects/:slug/"
+
+# Enable built-in features
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+# Sitemap configuration
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Markup settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+# Site parameters
+[params]
+  description = "Personal website of Florian Schmidt - Software developer with a heart for non-profits"
+  author = "Florian Schmidt"
+
+# Menus
+[menus]
+  [[menus.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menus.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+  [[menus.main]]
+    name = "Passion Projects"
+    url = "/projects/"
+    weight = 3
+  [[menus.main]]
+    name = "About me"
+    url = "/about-me/"
+    weight = 4
