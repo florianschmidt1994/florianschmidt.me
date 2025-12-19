@@ -110,8 +110,9 @@ img {
 /* Greeting */
 .greeting {
   font-size: 1.25rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding: 0 2.5rem;
+  font-weight: 600;
 }
 
 @media (min-width: 1024px) {
